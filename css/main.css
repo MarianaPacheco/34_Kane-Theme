@@ -2,10 +2,101 @@
 body {
    overflow-x: hidden;
 }
-
-Poner clase icon-bg linea 193
-Agregar atributos a clase img-thumbnail linea 194 y transform rotate
+nav.navbar, .bg-green {
+    background-color: #27AD60;
+}
+.text-white{
+	color:#ffffff;
+}
+.text-orange{
+	color:#e67e22;
+}
+.bg-blue{
+	background-color: #2c3e50;
+}
+.bg-image{
+	width: 100%;
+	height: 400px;
+	background-size: 100% 100%;
+ 	background-repeat: no-repeat;	
+}
+.bg-image2{
+	height: 150px!important;
+}
+#bg1{
+	background-image: url("../img/carousel-bg.jpg");
+}
+#bg2{
+	background-image: url("../img/img-divider-img.jpg");
+}
+.jumbo{
+	font-size: 4.5em;
+}
+.min{
+	text-transform: unset;
+}
+.icon{
+	margin-top: 25%; 
+	width: 100px;
+	height: 100px;
+}
+.hr-l{
+	width: 20%;
+	border:1px solid gray;
+}
+.color{
+	width: 180px;
+	height: 180px;
+}
+#color1{
+	background-color: #69D2E7;
+}
+#color2{
+	background-color: #69A287;
+}
+#color3{
+	background-color: #79B287;
+}
+#color4{
+	background-color: #69C387;
+}
+#color5{
+	background-color: #61A287;
+}
+.mt-2{
+	margin-top: 2%;
+}
+.contit{
+	width: 200px;
+	height: 300px;
+}
 
 
 /* Media */
- /* Cambiar imagen de webdesign2x por webdesign, graphicd essign, mobile */
+
+@media (min-width: 768px) {
+
+.color{
+	width: 20%;
+}
+.img-about{
+	width: 50%;
+}
+.mb-5{
+	margin-bottom: 5%;
+}
+.contit{
+	width: 30%;
+	height: 30%;
+}
+.jumbo{
+	font-size: 1em;
+}
+}
+
+@media (max-width: 600px) {
+
+	.color{
+	width: 20%;
+}
+}
